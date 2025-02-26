@@ -1,5 +1,6 @@
 ---
-title: xyz
+title: Setting up Quartz
 ---
 
-Hi there
+Hi, I am setting up Quartz page of mine. 
+Using obsidian as backend. [[obsidian setup]]
