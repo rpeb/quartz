@@ -5,12 +5,32 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.OnlyFor(
+      { titles: ["PD's Digital Notebook"] },
+      Component.RecentNotes({
+        showTags: true,
+        title: "Recently added notes:",
+        showDate: true,
+        limit: 5,
+      }),
+    ),
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        // from data-repo
+        repo: "rpeb/quartz",
+        // from data-repo-id
+        repoId: "R_kgDONh7DmQ",
+        // from data-category
+        category: "Announcements",
+        // from data-category-id
+        categoryId: "DIC_kwDONh7Dmc4ClnaB",
+      },
+    }),
+  ],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
+    links: {},
   }),
 }
 
