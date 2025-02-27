@@ -18,3 +18,4 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 </p>
 
 push changes: `npx quartz sync --no-pull`
+run locally: `npx quartz build --serve`
