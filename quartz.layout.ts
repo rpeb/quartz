@@ -1,5 +1,8 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import 'dotenv/config';
+const myRepoID = process.env.GISCUS_REPO_ID;
+const myCategoryID = process.env.GISCUS_CATEGORY_ID;
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -21,11 +24,11 @@ export const sharedPageComponents: SharedLayout = {
         // from data-repo
         repo: "rpeb/quartz",
         // from data-repo-id
-        repoId: "R_kgDOOAAjaw",
+        repoId: myRepoID,
         // from data-category
         category: "General",
         // from data-category-id
-        categoryId: "DIC_kwDOOAAja84CnZCG",
+        categoryId: myCategoryID,
       },
     }),
   ],
