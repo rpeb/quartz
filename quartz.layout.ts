@@ -6,7 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.OnlyFor(
+    Component._OnlyFor(
       { titles: ["PD's Digital Notebook"] },
       Component.RecentNotes({
         showTags: true,
