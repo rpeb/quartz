@@ -21,11 +21,11 @@ export const sharedPageComponents: SharedLayout = {
         // from data-repo
         repo: "rpeb/quartz",
         // from data-repo-id
-        repoId: "R_kgDONh7DmQ",
+        repoId: "R_kgDOOAAjaw",
         // from data-category
-        category: "Announcements",
+        category: "General",
         // from data-category-id
-        categoryId: "DIC_kwDONh7Dmc4ClnaB",
+        categoryId: "DIC_kwDOOAAja84CnZCG",
       },
     }),
   ],
