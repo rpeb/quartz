@@ -3,14 +3,19 @@ title: About me
 ---
 
 **Hey there! 👋**  
-I’m a ```telescope
-        * Software Developer 
-            * by day, 
-            * a relentless tinkerer 
-                *by night, and an overthinking philosopher 24/7.
-        ```
-    If there’s a rabbit hole, I’ve probably fallen into it—whether it’s debugging code or questioning the meaning of life (often both at once).
+I’m a **Software Developer by day**, a **relentless tinkerer by night**, and an **overthinking philosopher 24/7**. If there’s a rabbit hole, I’ve probably fallen into it—whether it’s debugging code or questioning the meaning of life (often both at once).
 
 Tired of mindlessly consuming content, I’m on a mission to **[[create]] more, write more, and maybe even make sense of the chaos in my head**. When I’m not coding or overanalyzing everything, you’ll find me experimenting with side projects, tweaking things just for fun, or trying (and failing) to resist learning yet another new framework.
 
-Go on! Say Hi in comments!
+Let’s connect and [[build]] something cool! 🚀
+
+```telescopic
+* lately I am 
+* reading
+  * reading not a lot of [[book club/|books]],
+  * going to functions,
+    * go on short runs,
+    * building [[semiconductors and chips/]],
+    * thinking about the type of person I want to become,
+  * eating cheese.
+```
