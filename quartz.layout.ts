@@ -30,6 +30,11 @@ export const sharedPageComponents: SharedLayout = {
         category: "General",
         // from data-category-id
         categoryId: myCategoryID,
+        mapping: "specific",
+        strict: false,
+        reactionsEnabled: false,
+        inputPosition: "top",
+        term: "Guestbook"
       },
     }),
   ],

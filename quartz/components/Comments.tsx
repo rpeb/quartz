@@ -35,6 +35,8 @@ export default ((opts: Options) => {
     }
 
     return (
+      <div>
+        <h2>📒 Guestbook</h2>
       <div
         class={classNames(displayClass, "giscus")}
         data-repo={opts.options.repo}
@@ -50,7 +52,9 @@ export default ((opts: Options) => {
         data-theme-url={
           opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
         }
-      ></div>
+      >
+      </div>
+      </div>
     )
   }
 

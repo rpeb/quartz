@@ -1,5 +1,6 @@
 ---
 title: On creativity
+created: 2025-02-27
 ---
 
 resonated with me on a whole different level:
