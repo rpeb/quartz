@@ -1,45 +1,44 @@
 ---
 title: 2025-03-14_synchronisation
-hub: [[engineering]]
 created: 2025-03-14
 tags:
     - operatingsystem
 ---
-# Chapter 6 | synchronisation
+hub: [[engineering]]
 
-## The critical section problem
+### The critical section problem
 
-## Peterson's solution
+### Peterson's solution
 
-## synchronisation hardware
+### synchronisation hardware
 
-## semaphores
+### semaphores
 
 1. usage
 2. implementation
 3. deadlocks and starvation
 
-## classic problems of synchronisation
+### classic problems of synchronisation
 
 1. bounded-buffer problem
 2. readers-writers problem
 3. dining philosophers problem
 
-## monitors
+### monitors
 
 1. usage
 2. dining philosophers solution using monitors
 3. implementing a monitor using semaphores
 4. resuming processes within a monitor
 
-## synchronisation examples
+### synchronisation examples
 
 1. solaris
 2. windows xp
 3. linux
 4. pthreads
 
-## atomic transactions
+### atomic transactions
 
 1. system model
 2. log based recovery

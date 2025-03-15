@@ -1,24 +1,22 @@
 ---
-title: 2025-03-14_process-scheduling
-hub: [[engineering]]
+title: Process Scheduling
 created: 2025-03-14
 tags:
     - operatingsystem
     - quartz
 ---
+hub: [[engineering]]
 
-# Chapter5 | _process-scheduling
-
-## Basic concepts
+### Basic concepts
 
 1. cpu-i/o burst cycle
 2. cpu scheduler
 3. preemptive scheduling 
 4. dispatcher
 
-## Scheduling criteria
+### Scheduling criteria
 
-## Scheduling algorithms
+### Scheduling algorithms
 
 1. first comes first served
 2. shortest job first
@@ -27,25 +25,25 @@ tags:
 5. multilevel queue scheduling
 6. multilevel feedback-queue scheduling
 
-## Multiple-processor scheduling
+### Multiple-processor scheduling
 
 1. approaches to multiple-processor scheduling
 2. processor affinity
 3. load balancing
 4. symmetric multithreading
 
-## Thread scheduling
+### Thread scheduling
 
 1. contention scope
 2. pthread scheduling
 
-## Operating system examples
+### Operating system examples
 
 1. solaris
 2. windows xp
 3. linux
 
-## Algorithm evaluation
+### Algorithm evaluation
 
 1. deterministic modelling
 2. queueing models
