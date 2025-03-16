@@ -1,11 +1,13 @@
 ---
-title: Multithreaded Programming
+title: Chapter 4. Multithreaded Programming
 created: 2025-03-14
 tags:
     - operatingsystem
 ---
 
-hub: [[engineering]]
+Hub: [[engineering]]
+
+Part of the [[series]]
 
 ### Multithreading models
 

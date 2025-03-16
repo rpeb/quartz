@@ -1,12 +1,13 @@
 ---
-title: Deadlocks
+title: Chapter 7. Deadlocks
 created: 2025-03-14
 tags:
   - operatingsystem
 ---
-hub: [[engineering]]
 
-Part of the [[series]]
+Hub: [[engineering]]
+
+> Part of the [[series]]
 
 ### system model
 

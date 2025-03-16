@@ -1,11 +1,13 @@
 ---
-title: Process Scheduling
+title: Chapter 5. Process Scheduling
 created: 2025-03-14
 tags:
     - operatingsystem
-    - quartz
 ---
-hub: [[engineering]]
+
+Hub: [[engineering]]
+
+> Part of the [[series]]
 
 ### Basic concepts
 

@@ -1,13 +1,14 @@
 ---
-title: Memory Management Strategies
+title: Chapter 8. Memory Management Strategies
 created: 2025-03-14
 tags: 
     - operatingsystem
 ---
 
-hub: [[engineering]]
+Hub: [[engineering]]
 
-Part of the [[series]]
+> Part of the [[series]]
+
 
 ### Background
 

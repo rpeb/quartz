@@ -1,10 +1,13 @@
 ---
-title: 2025-03-14_synchronisation
+title: Chapter 6. Synchronisation
 created: 2025-03-14
 tags:
     - operatingsystem
 ---
-hub: [[engineering]]
+
+Hub: [[engineering]]
+
+> Part of the [[series]]
 
 ### The critical section problem
 
