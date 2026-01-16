@@ -1,3 +1,14 @@
 @use "./base.scss";
 
+// Custom date/time styling with handwritten font
+.content-meta {
+  time, span {
+    font-family: 'Caveat', cursive, 'Segoe UI', system-ui, sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--gray);
+  }
+}
+
 // put your custom CSS here!

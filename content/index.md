@@ -1,5 +1,5 @@
 ---
-title: Hey there! 👋 Welcome to my digital notebook.
+title: "Hey there! 👋 Welcome to my digital notebook."
 ---
 
 I’m a **Software Developer by day**, a **relentless tinkerer by night**, and an **overthinking philosopher 24/7**. If there’s a rabbit hole, I’ve probably fallen into it—whether it’s debugging code or questioning the meaning of life (often both at once).
