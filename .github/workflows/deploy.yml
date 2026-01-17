@@ -40,13 +40,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Prepare deployment
-        env:
-          MY_SECRET: ${{ secrets.GISCUS_CATEGORY_ID }}
-        run: |
-          # Any preparation steps that need secrets
-          echo "My secret iss $MY_SECRET"
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
