@@ -56,25 +56,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Writing",
-        limit: 4,
-        filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 2,
-        filter: (f) => f.slug!.startsWith("thoughts/"),
-        linkToMore: "thoughts/" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Explorer({
+      folderDefaultState: "collapsed",
+      useSavedState: false,
+    }),
   ],
   right: [
     Component.Graph({

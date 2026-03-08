@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Configuration
-OBSIDIAN_VAULT = Path("/Users/prakashd/Documents/Obsidian/MacVault")
+OBSIDIAN_VAULT = Path("/home/rpeb/Documents/vault")
 QUARTZ_CONTENT = Path("/Users/prakashd/github/quartz/content")
 STAGING_FOLDER = "staging"  # Folder in your vault for files to publish
 PUBLISH_TAG = "publish"  # Tag to look for in frontmatter (without #)
